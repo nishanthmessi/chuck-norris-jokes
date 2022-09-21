@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  box-sizing: border-box;
+  background: rgb(170,76,127);
+  background: radial-gradient(circle, rgba(170,76,127,1) 64%, rgba(180,63,251,1) 97%, rgba(165,83,57,0.7000176779696253) 100%);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.jokes {
+  margin-top: 20px;
+  padding: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.btn {
+  margin-top: 30px;
+  background-color: #111;
+  padding: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
